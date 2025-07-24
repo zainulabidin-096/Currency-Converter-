@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class ApiService {
-  static const String _apiKey = 'c0feb789dca370064c68f75f';
+  static const String _apiKey = 'Enter your API here';
   static const String _baseUrl = 'https://v6.exchangerate-api.com/v6';
 
   static Future<double> getExchangeRate({
